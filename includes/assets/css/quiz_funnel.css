@@ -1,0 +1,200 @@
+:root {
+    --border-color: #cacaca;
+    --background-color: #ffffff;
+    --background-box-title: #f7f7f7;
+}
+.funnel-card-outer-gray {
+    background: #f9fafb;
+    border: 1px solid #e8ebee;
+    padding: 0 20px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 0 25px;
+    position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 67px);
+    display: flex;
+}
+
+
+#drawflow {
+    max-width: 100%;
+    width: 100%;
+    height: 700px;
+}
+
+
+#drawflow {
+    position: relative;
+    width: calc(100vw - 301px);
+    height: calc(100% - 50px);
+    top: 40px;
+    background: var(--background-color);
+    background-size: 25px 25px;
+    background-image: linear-gradient(to right, #f1f1f1 1px, transparent 1px),
+   linear-gradient(to bottom, #f1f1f1 1px, transparent 1px);
+    overflow: auto;
+    transform: translate(0px, 0px) scale(1);
+}
+.parent-drawflow {
+    display: flex;
+    overflow: hidden;
+    touch-action: none;
+    outline: 0;
+}
+#drawflow .drawflow {
+    transform-origin: left top;
+    transform: translate(0px, 0px) scale(0.8);
+}
+.drawflow .parent-node:nth-child(1) .drawflow-node .funnel_question_title, .drawflow .parent-node:nth-child(n + 4) .drawflow-node .funnel_question_title {
+    background: #abe863;
+}
+.drawflow .parent-node:nth-child(2) .drawflow-node, .drawflow .parent-node:nth-child(2n + 4) .drawflow-node {
+    border-color: #73b8ef;
+}
+
+.drawflow .parent-node:nth-child(3) .drawflow-node, .drawflow .parent-node:nth-child(3n + 4) .drawflow-node {
+    border-color: #ff877e;
+}
+.drawflow .parent-node .drawflow-node .output, .drawflow .parent-node .drawflow-node .input {
+    background: #94c09e; 
+}
+.drawflow .parent-node .drawflow-node .funnel_question_title {
+    padding: 10px 7px;
+    background: #94c09e;
+    line-height: normal;
+    color: #000;
+}
+
+
+.drawflow .parent-node .drawflow-node {
+    border-radius: 0;
+    border: 2px solid #94c09e;
+    padding: 0;
+}
+.drawflow .drawflow-node {
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
+    -webkit-box-shadow: 0 2px 15px 2px var(--border-color);
+    box-shadow: 0 2px 15px 2px var(--border-color);
+    padding: 0px;
+    width: auto;
+}
+.drawflow .drawflow-node {
+    background: var(--background-color);
+    border: 1px solid var(--border-color);
+    -webkit-box-shadow: 0 2px 15px 2px var(--border-color);
+    box-shadow: 0 2px 15px 2px var(--border-color);
+    padding: 0px;
+    width: auto;
+}
+
+.drawflow .Quiz-Template2, .drawflow .Quiz-Template, .drawflow .Quiz-Optin-Template, .drawflow-node .drawflow_content_node {
+    width: 250px !important;
+    max-width: 250px;
+    padding: 0;
+}
+
+.drawflow .parent-node .drawflow-node .funnel_question_title span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.drawflow .parent-node .drawflow-node .funnel_answer_title {
+    margin: 4px 8px;
+    line-height: 1.2;
+    padding: 7px 5px;
+    border: 1px solid #e7e7e7;
+    background: #dcdcdc;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    max-width: calc(100% - 16px);
+    vertical-align: top;
+}
+
+.drawflow .parent-node .drawflow-node .funnel_answer_title span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+
+.drawflow .parent-node:nth-child(1) .drawflow-node , 
+.drawflow .parent-node:nth-child(n + 4) .drawflow-node {border-color:#abe863; }
+.drawflow .parent-node:nth-child(1) .drawflow-node .funnel_question_title ,
+.drawflow .parent-node:nth-child(n + 4) .drawflow-node .funnel_question_title {background: #abe863;}
+.drawflow .parent-node:nth-child(1) .drawflow-node .output , .drawflow .parent-node:nth-child(1) .drawflow-node .input,
+.drawflow .parent-node:nth-child(n + 4) .drawflow-node .output , .drawflow .parent-node:nth-child(n + 4) .drawflow-node .input 
+{background: #abe863;}
+
+.drawflow .parent-node:nth-child(2) .drawflow-node , 
+.drawflow .parent-node:nth-child(2n + 4) .drawflow-node {border-color:#73b8ef; }
+.drawflow .parent-node:nth-child(2) .drawflow-node .funnel_question_title ,
+.drawflow .parent-node:nth-child(2n + 4) .drawflow-node .funnel_question_title {background: #73b8ef;}
+.drawflow .parent-node:nth-child(2) .drawflow-node .output , .drawflow .parent-node:nth-child(2) .drawflow-node .input,
+.drawflow .parent-node:nth-child(2n + 4) .drawflow-node .output , .drawflow .parent-node:nth-child(2n + 4) .drawflow-node .input 
+{background: #73b8ef;}
+
+.drawflow .parent-node:nth-child(3) .drawflow-node , 
+.drawflow .parent-node:nth-child(3n + 4) .drawflow-node {border-color:#ff877e; }
+.drawflow .parent-node:nth-child(3) .drawflow-node .funnel_question_title ,
+.drawflow .parent-node:nth-child(3n + 4) .drawflow-node .funnel_question_title {background: #ff877e;}
+.drawflow .parent-node:nth-child(3) .drawflow-node .output , .drawflow .parent-node:nth-child(3) .drawflow-node .input,
+.drawflow .parent-node:nth-child(3n + 4) .drawflow-node .output , .drawflow .parent-node:nth-child(3n + 4) .drawflow-node .input 
+{background: #ff877e;}
+
+.drawflow .parent-node:nth-child(4) .drawflow-node , 
+.drawflow .parent-node:nth-child(4n + 4) .drawflow-node {border-color:#92a2fb; }
+.drawflow .parent-node:nth-child(4) .drawflow-node .funnel_question_title ,
+.drawflow .parent-node:nth-child(4n + 4) .drawflow-node .funnel_question_title {background: #92a2fb;}
+.drawflow .parent-node:nth-child(4) .drawflow-node .output , .drawflow .parent-node:nth-child(4) .drawflow-node .input,
+.drawflow .parent-node:nth-child(4n + 4) .drawflow-node .output , .drawflow .parent-node:nth-child(4n + 4) .drawflow-node .input 
+{background: #92a2fb;}
+
+
+
+.drawflow .drawflow-node .input, .drawflow .drawflow-node .output {
+    height: 22px;
+    width: 22px;
+     border: 2px solid var(--border-color);
+}
+
+
+.drawflow .drawflow-node .input {
+    left: -10px;
+    background: white;
+}
+
+
+
+.drawflow .drawflow-node.selected {
+    background: white;
+    border: 1px solid #4ea9ff;
+    -webkit-box-shadow: 0 2px 20px 2px #4ea9ff;
+    box-shadow: 0 2px 20px 2px #4ea9ff;
+}
+.parent-node .drawflow-delete {
+    right: -15px;
+    top: -15px;
+}
+.drawflow-delete {
+    border: 2px solid #4ea9ff;
+    background: white;
+    color: #4ea9ff;
+    -webkit-box-shadow: 0 2px 20px 2px #4ea9ff;
+    box-shadow: 0 2px 20px 2px #4ea9ff;
+}
+
+.rbt_funnel_options{display: none;}
+
+#drawflow.max_funnel_questions_active .drawflow-node .drawflow_content_node {width: 160px !important;max-width: 160px;}

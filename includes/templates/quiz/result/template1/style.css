@@ -1,0 +1,56 @@
+.rbtq_result_template1 {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 40px;
+    max-width: 640px;
+    border: 1px solid #ddd;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left;
+    border-radius: 7px;
+    background: #fff;
+    font-family: 'DM Sans',sans-serif;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.rbtq_result_template1 .rbtq-Template-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    margin: 10px !important;
+}
+
+.rbtq_result_template1 .rbtq-Template-content {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-family: 'DM Sans',sans-serif;
+}
+
+.rbtq_result_template1 .rbtq_result_continue_btn {
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+    background: #2111e3;
+    color: #fff;
+    height: auto;
+    padding: 10px 15px;
+    font-family: 'DM Sans',sans-serif;
+    min-width: 90px;
+    box-shadow: none;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+    line-height: normal;
+    border: 1px solid #2111e3;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: normal;
+}

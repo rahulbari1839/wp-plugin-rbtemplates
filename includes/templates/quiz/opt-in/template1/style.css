@@ -1,0 +1,101 @@
+.rbtq_optin_template1 * {
+    box-sizing: border-box !important;
+}
+.rbtq_optin_template1 {
+    display: inline-block !important;
+    width: 100%;
+    max-width: 750px;
+    border: 1px solid #ddd;
+    margin: 0;
+    vertical-align: middle;
+    text-align: left;
+    border-radius: 7px;
+    background: #fff;
+    font-family: 'DM Sans',sans-serif;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+
+.rbtq_optin_template1 .rbtq-Template-title {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 40px;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: initial;
+}
+
+.rbtq_optin_template1 .rbtq-Template-sub-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0;
+    text-transform: initial;
+}
+
+.rbtq_optin_template1 .rbtq_cls {
+    float: left;
+    width: 100%;
+}
+
+.rbtq_optin_template1 .rbtq_cls input {
+    background-image: none!important;
+    font-family: 'DM Sans',sans-serif;
+    outline: none !important;
+    box-shadow: none !important;
+    background-attachment: initial !important;
+    background-size: auto !important;
+    background-position: unset !important;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'DM Sans',sans-serif;
+}
+
+.rbtq_optin_template1 .rbtq_continue_btn {
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+    background: #2111e3;
+    color: #fff;
+    height: auto;
+    padding: 15px 15px;
+    font-family: 'DM Sans',sans-serif;
+    min-width: 90px;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: normal;
+    text-align: center;
+    text-transform: initial;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 10px auto 15px;
+    clear: both;
+    display: inline-block;
+    border: 1px solid #2111e3;
+}
+
+.rbtq_optin_template1 .rbtq_text_privacy_policy {
+    font-size: 15px;
+    font-family: 'DM Sans',sans-serif;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.rbtq_optin_template1  .rbtq-Template-content {
+    padding: 40px;
+}

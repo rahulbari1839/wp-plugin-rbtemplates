@@ -1,0 +1,153 @@
+/* Global classes start */
+.rbt_display_none{display: none;} 
+.rbt_display_none_fe {display: none !important;}
+/*.rbt_display_block_fe{display: block;} */
+.rbt_display_block_fe {display: block; !important;}
+.rbt_anchor_btn {cursor: pointer;}
+/* Global classes end */
+
+.rbt_d_flex_space_evenly{display: flex;justify-content: space-evenly;}
+
+.rb_templates_container{margin: 20px;}
+.rbt_frontend_outer_div .rbt_frontend_hide,.rbt_frontend_outer_div .error_message_div, .rbt_frontend_outer_div{display:none}
+.rbt_frontend_outer_div .rbt_template_drag_drop_item_section  .hover_close_btn, .rbt_backend_show {display: none}
+
+.rbt_frontend_outer_div .rbt_error_field{border:1px solid red;}
+/* Error/success css start */
+.rbt_frontend_outer_div .rbt_temp_message{display: none;text-align: center;}
+.rbt_frontend_outer_div .rbt_temp_message .rbt_temp_error_message{color: #e31414}
+.rbt_frontend_outer_div .rbt_temp_message .rbt_temp_success_message{color: #086023}
+/* Error/success css end */
+
+/* loader css start */
+#rbt_loading_overlay, #rbt_loader_icon {
+  position: fixed;
+  top: 0%;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+#rbt_loader_icon img {  width: 71px;  height: 71px;}
+@keyframes rbt_lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rbt_lds-dual-ring {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rbt_lds-dual-ring {
+  position: relative;
+}
+.rbt_lds-dual-ring div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 20px;
+  border-radius: 60%;
+  border: 10px solid #000;
+  border-color: #fff transparent #fff transparent;
+  -webkit-animation: rbt_lds-dual-ring 1.4s linear infinite;
+  animation: rbt_lds-dual-ring 1.4s linear infinite;
+}
+.rbt_lds-dual-ring {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+.rbt_lds-dual-ring {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+/* loader css end */
+
+.rbt_frontend_outer_div  input:focus{outline:none; }
+
+/*   dragable elements customier start */
+.rbt_inner_section_side_bar, .rbt_inner_section_side_bar iframe {
+    width: 100% !important;
+   
+    height: auto !important;
+}
+
+.field_type_teaxarea {height: auto;}
+/*   dragable elements customier end */
+
+/* field validation start */
+.rbt_field_error_msg{color: red}
+.rbt_field_error_msg_html{display: none;}  
+.rbt_field_file_html  img{    width: 100px;    height: 100px;}
+/* field validation end */
+
+.rbt_frontend_outer_div  #rbt_form_template_wrapper, .rbt_frontend_outer_div  .rbtq_template_html_wrapper{  margin:30px 0px;}
+.rbt_frontend_outer_div .reset_password_div #rbt_form_template_wrapper {    margin: 0;}
+
+.rbt_error_response   { background-color:#f05b41  !important;    display: block;}
+.rbt_error_response * {    color: #fff !important;    background-color: #f05b41  !important;    font-size: 21px !important;    font-weight: 500 !important;}
+
+.tmplate_display_type_button_click #rbt_form_template_wrapper {display: none;}
+
+.rbt_temp_button_click_show,.rbt_temp_cursor, .rbtq-start-btn,.rbtqoptin_continue_btn,  .rbtq_result_continue_btn, .rbtq_question_ans_item_inner {  cursor: pointer;}
+
+.tmplate_display_type_popup ,.tmplate_display_type_button_click #rbt_form_template_wrapper{position: fixed;  top: 0;   left: 0; z-index: 1040;  width: 100vw; height: 100vh;
+    background-color: #0006;overflow-y: scroll;}
+    
+.rbt_close_template_popup{  position: absolute;top: 20px;right: 30px;transition: all 200ms;font-size: 30px;font-weight: bold;text-decoration: none;display: none;color: #fff;}
+
+.rbt_frontend_show_popup .rbt_close_template_popup{display: block;}
+
+.tmplate_display_type_popup   #rbt_form_template_wrapper{  margin-top: 200px;}
+
+.tmplate_display_type_popup {/*display: none;*/}
+.tmplate_display_type_popup.rbt_frontend_show_popup   {/*display: block;*/}
+div.rbt_laoder_wrapper ~ .rbt_laoder_wrapper {display: none;}
+
+/* Quiz page stat */ 
+.template_quiz_item_html_wrapper .rbtqresult_template_wrapper{display:none;}
+/* Quiz page end */ 
+/* Slider shortcode start */
+@media (max-width: 640px){
+  #rbt_form_template_wrapper .rbt_change_img_outer{
+    width: 100% !important;
+      height: auto !important;
+    margin-bottom: 1px;
+  }
+  #rbt_form_template_wrapper .rbt_change_img_outer img {
+    max-height: 190px !important;
+    object-fit: contain;
+    width: 100% !important;
+  }
+}
+
+
+@media(max-width: 528px){
+
+  .rbt_lds-dual-ring {   
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);transform: translate(-100px, -100px) scale(1) translate(100px, -25px);}
+
+   .rbt_lds-dual-ring div { top: 20px; left: 45px;}
+
+}
+

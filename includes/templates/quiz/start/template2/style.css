@@ -1,0 +1,29 @@
+/**Quiz_temp**/
+
+.rbtq_start_template2 .rbtq-start-btn  {display: inline-block;  border-radius: 5px; background:#2111e3 ; color: #fff; height: auto; padding: 13px 15px; font-family: 'DM Sans',sans-serif; min-width: 90px; box-shadow: none; margin: 0 0 15px 0; text-decoration: none; line-height: normal; border: none; text-align: center; text-transform: initial; font-size: 22px; font-weight: 600; width :300px; max-width :100%;cursor:pointer}
+  
+.rbtq_start_template2{display: inline-block; width: 100%; padding: 20px 40px; max-width: 100%; border: 0px solid #ddd; margin: 0; vertical-align: middle; text-align: center; border-radius: 7px; background: inherit; font-family: 'DM Sans',sans-serif; color: #333; font-size: 16px; font-weight: normal; line-height: 1.4; } .rbtq_start_template_withbutton .rbtq-Template-content{float: left; width: 100%; }
+
+.rbtq_start_template2, #rbtq_template_wrapper_fe .rbtq_start_template2 {display: inline-block;width: 100%;padding: 20px 40px;max-width: 640px;border: 1px solid #ddd;margin: 0;vertical-align: middle;text-align: left;border-radius: 7px;background: #fff;font-family: 'DM Sans',sans-serif;color: #333;font-size: 16px;font-weight: normal;line-height: 1.4;}
+ 
+/*.rbtq_start_template2 .rbtq-Template-content{text-align: center;}*/
+
+/*.rbtq_start_template2 .rbtq-Template-content , .rbtq-Template-content p {display: inline-block;width: 100%;margin: 0;padding: 0;vertical-align: middle;font-family: 'DM Sans',sans-serif;    text-transform: initial;}
+*/
+/*#rbtq_template_wrapper_fe  .rbtq_start_template2 .rbtq-Template-content , #rbtq_template_wrapper_fe  .rbtq-Template-content p  {display: inline-block;width: 100%;margin: 0;padding: 0;vertical-align: middle;font-family: 'DM Sans',sans-serif;    text-transform: initial;}
+*/
+/*#rbtq_template_wrapper_fe  .rbtq_start_template2 .rbtq-Template-content, .rbtq_start_template2 .rbtq-Template-content{text-align: center;}
+*/
+.rbtq_start_template2 .rbtq-Template-title, #rbtq_template_wrapper_fe  .rbtq_start_template2 .rbtq-Template-title { font-family: 'DM Sans',sans-serif; letter-spacing:0;   text-transform: initial;text-align: center;margin-bottom: 15px;font-size: 24px;font-weight: normal;color: #333;font-weight: 500;}
+
+.rbtq_start_template2 .Quiz-Template-image img , #rbtq_template_wrapper_fe .rbtq_start_template2 .Quiz-Template-image img {max-width: 100%;vertical-align: middle;width: auto;height: auto;margin: 0 auto 15px;}
+
+/*.rbtq-Template-content p, #rbtq_template_wrapper_fe  .rbtq-Template-content p {color: #333;font-size: 16px;font-weight: normal;line-height: 1.4;margin-bottom: 15px;}
+*/
+.rbtq_start_template2 .rbtq-start-btn , #rbtq_template_wrapper_fe .rbtq_start_template2 .rbtq-start-btn {display: inline-block; display: inline-block; width: 700px; max-width: 100%; border-radius: 8px; background: #2111e3; color: #fff; height: auto; padding: 13px 15px; font-family: 'DM Sans',sans-serif; min-width: 90px; box-shadow: none; margin: 15px 0 15px 0; text-decoration: none; line-height: normal; border: none; text-align: center; text-transform: none; font-size: 22px; font-weight: 600; border: 1px solid #2111e3;}
+
+.rbtq_start_template2 .rbtq_start-title {    font-family: 'DM Sans',sans-serif;    letter-spacing: 0;    text-transform: initial;    text-align: center;    margin-bottom: 15px;    font-size: 24px;    font-weight: normal;    color: #333;    font-weight: 500;}
+
+.rbtq_start_template2 .rbtq_content {    text-align: left;    line-height: 1.3;    padding: 15px 7px 7px;    font-size: 16px;    margin: 0;}
+
+/*.template6_selected .rbtq_start_template2 { width:94%; }*/
